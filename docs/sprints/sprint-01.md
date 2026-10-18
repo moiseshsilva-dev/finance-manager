@@ -21,7 +21,7 @@ A Sprint 01 contempla a preparação documental e técnica do Finance Manager, o
 - [x] **FM-02 - Migrate Project Structure to Maven:** Reorganizar a estrutura de diretórios conforme as convenções do Maven.
 - [x] **FM-03 - Create and Configure Maven POM:** Criar e configurar o arquivo `pom.xml`.
 - [x] **FM-04 - Validate Maven Build:** Validar a compilação e o empacotamento do projeto pelo Maven, no terminal e no IntelliJ IDEA.
-- [ ] **FM-05 - Sprint Review and Delivery:** Revisar as entregas, verificar os critérios de conclusão e registrar os resultados da Sprint.
+- [x] **FM-05 - Sprint Review and Delivery:** Revisar as entregas, verificar os critérios de conclusão e registrar os resultados da Sprint.
 
 ## Definition of Done
 Uma entrega da Sprint 01 será considerada concluída quando:
