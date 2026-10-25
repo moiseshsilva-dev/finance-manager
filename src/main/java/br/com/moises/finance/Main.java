@@ -1,11 +1,12 @@
 package br.com.moises.finance;
 
+import br.com.moises.finance.model.Account;
+import br.com.moises.finance.model.User;
+
+import java.math.BigDecimal;
+
 public class Main {
     public static void main(String[] args) {
-        IO.println(String.format("Hello and welcome!"));
 
-        for (int i = 1; i <= 5; i++) {
-            IO.println("i = " + i);
-        }
     }
 }
