@@ -1,4 +1,5 @@
 package br.com.moises.finance.model;
+
 import java.math.BigDecimal;
 
 public class Account {
@@ -24,17 +25,6 @@ public class Account {
         this.initialBalance = initialBalance;
     }
 
-    public void rename(String newName) {
-        validateName(newName);
-        this.name = newName;
-    }
-
-    private static void validateName(String name) {
-        if (name == null || name.isBlank()) {
-            throw new IllegalArgumentException("Account name must not be null or blank.");
-        }
-    }
-
     public Long getId() {
         return this.id;
     }
@@ -49,5 +39,16 @@ public class Account {
 
     public BigDecimal getInitialBalance() {
         return this.initialBalance;
+    }
+
+    public void rename(String newName) {
+        validateName(newName);
+        this.name = newName;
+    }
+
+    private static void validateName(String name) {
+        if (name == null || name.isBlank()) {
+            throw new IllegalArgumentException("Account name must not be null or blank.");
+        }
     }
 }
